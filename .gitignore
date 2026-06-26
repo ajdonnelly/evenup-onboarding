@@ -1,0 +1,11 @@
+# Application documents — keep private, out of the public site repo
+*.docx
+*.pdf
+*.tmp
+.DS_Store
+qa-*.jpg
+qa-*.png
+_orig_*
+!EvenUp_Rise_Module_Script.pdf
+!EvenUp_Kickoff_Success_Plan.pdf
+!EvenUp_Onboarding_Gameplan.pdf
