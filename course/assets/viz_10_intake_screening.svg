@@ -1,0 +1,65 @@
+<svg viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Inter, ui-sans-serif, system-ui, Arial, sans-serif">
+  <title>Screen and route cases at intake</title>
+  <desc>AI screening at intake detects high-value indicators and routes strong cases to the right team to prioritize, while flagging disqualifying factors to screen out — onboarding clients 9x faster.</desc>
+  <defs>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#1b2a4a" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arw" markerWidth="10" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#b7bdc9"/></marker>
+  </defs>
+  <rect x="0" y="0" width="1200" height="720" fill="#ffffff"/>
+
+  <text x="50" y="52" font-size="15" font-weight="700" letter-spacing="2" fill="#316cf4">INTAKE · QUALIFY &amp; ROUTE</text>
+  <text x="50" y="94" font-size="29" font-weight="800" fill="#14233b">Screen at intake — take the right cases, route them right</text>
+
+  <!-- connectors -->
+  <path d="M240 375 H262" stroke="#cfd4de" stroke-width="2.5" fill="none" marker-end="url(#arw)"/>
+  <path d="M520 375 C 586 375, 600 275, 632 275" stroke="#cfd4de" stroke-width="2.5" fill="none" marker-end="url(#arw)"/>
+  <path d="M520 375 C 586 375, 600 465, 632 465" stroke="#cfd4de" stroke-width="2.5" fill="none" marker-end="url(#arw)"/>
+
+  <!-- new intakes -->
+  <rect x="50" y="305" width="190" height="140" rx="16" fill="#ffffff" stroke="#e7e9f0" filter="url(#sh)"/>
+  <rect x="74" y="333" width="44" height="34" rx="5" fill="#eef0f6" stroke="#cfd4de"/>
+  <path d="M74 350 h12 l4 6 h12 l4 -6 h12" fill="none" stroke="#9aa3b2" stroke-width="2" stroke-linejoin="round"/>
+  <text x="74" y="400" font-size="18" font-weight="700" fill="#14233b">New intakes</text>
+  <text x="74" y="422" font-size="13" fill="#5b6573">leads &amp; referrals</text>
+
+  <!-- hub -->
+  <rect x="270" y="290" width="250" height="170" rx="18" fill="#316cf4" filter="url(#sh)"/>
+  <path d="M395 318 L400 334 L416 339 L400 344 L395 360 L390 344 L374 339 L390 334 Z" fill="#ffffff"/>
+  <text x="395" y="392" text-anchor="middle" font-size="20" font-weight="800" fill="#ffffff">AI Intake Screening</text>
+  <rect x="318" y="408" width="154" height="30" rx="15" fill="#ffffff" opacity="0.20"/>
+  <text x="395" y="428" text-anchor="middle" font-size="13.5" font-weight="600" fill="#ffffff">scores every case</text>
+
+  <!-- TOP: take it -->
+  <rect x="640" y="196" width="500" height="158" rx="16" fill="#ffffff" stroke="#cfe8da" filter="url(#sh)"/>
+  <rect x="640" y="196" width="6" height="158" rx="3" fill="#15b371"/>
+  <circle cx="688" cy="240" r="18" fill="#e6f7ee"/>
+  <path d="M680 240 l6 6 l11 -13" stroke="#15b371" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="718" y="236" font-size="19" font-weight="800" fill="#14233b">Take it — prioritize &amp; route</text>
+  <text x="718" y="259" font-size="13" fill="#5b6573">High-value indicators detected</text>
+  <rect x="718" y="282" width="158" height="30" rx="15" fill="#eafaf0"/>
+  <text x="734" y="302" font-size="13" font-weight="600" fill="#15a564">TBI indicators</text>
+  <rect x="888" y="282" width="184" height="30" rx="15" fill="#eafaf0"/>
+  <text x="904" y="302" font-size="13" font-weight="600" fill="#15a564">Commercial policy</text>
+  <text x="718" y="338" font-size="13.5" font-weight="700" fill="#15a564">→ Routed to a senior attorney</text>
+
+  <!-- BOTTOM: screen out -->
+  <rect x="640" y="386" width="500" height="158" rx="16" fill="#ffffff" stroke="#f0e2c6" filter="url(#sh)"/>
+  <rect x="640" y="386" width="6" height="158" rx="3" fill="#f6a609"/>
+  <circle cx="688" cy="430" r="18" fill="#fdeccf"/>
+  <path d="M681 423 l14 14 M695 423 l-14 14" stroke="#f6a609" stroke-width="3" stroke-linecap="round"/>
+  <text x="718" y="426" font-size="19" font-weight="800" fill="#14233b">Screen out — save the time</text>
+  <text x="718" y="449" font-size="13" fill="#5b6573">Disqualifying factors found</text>
+  <rect x="718" y="472" width="150" height="30" rx="15" fill="#f3f5f8"/>
+  <text x="734" y="492" font-size="13" font-weight="600" fill="#7c8aa3">DUI indicator</text>
+  <rect x="880" y="472" width="150" height="30" rx="15" fill="#f3f5f8"/>
+  <text x="896" y="492" font-size="13" font-weight="600" fill="#7c8aa3">Weak liability</text>
+  <text x="718" y="528" font-size="13.5" font-weight="700" fill="#8a93a3">→ Declined or deprioritized</text>
+
+  <!-- stat ribbon -->
+  <rect x="50" y="600" width="1090" height="74" rx="16" fill="#316cf4"/>
+  <text x="92" y="648" font-size="34" font-weight="800" fill="#ffffff">9×</text>
+  <text x="150" y="634" font-size="18" font-weight="800" fill="#ffffff">faster client onboarding</text>
+  <text x="150" y="657" font-size="13.5" fill="#dbe6ff">Intelligent screening takes the right cases and routes them to the right team.</text>
+</svg>

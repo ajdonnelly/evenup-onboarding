@@ -1,0 +1,56 @@
+<svg viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Inter, ui-sans-serif, system-ui, Arial, sans-serif">
+  <title>Pick one pain point and prove the time saved</title>
+  <desc>Scope the pilot to one high-volume case type and a single pain point — missing records — then measure time to case-file record completion: automation versus relying on staff to spot the gap.</desc>
+  <defs>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#1b2a4a" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arw" markerWidth="10" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#b7bdc9"/></marker>
+  </defs>
+  <rect x="0" y="0" width="1200" height="720" fill="#ffffff"/>
+
+  <text x="50" y="52" font-size="15" font-weight="700" letter-spacing="2" fill="#316cf4">PILOT SCOPE · ONE PAIN POINT</text>
+  <text x="50" y="94" font-size="29" font-weight="800" fill="#14233b">Pick one pain point, prove the time saved</text>
+
+  <!-- scope cards -->
+  <text x="411" y="206" text-anchor="middle" font-size="26" font-weight="800" fill="#c4cad4">+</text>
+  <path d="M776 200 H804" stroke="#cfd4de" stroke-width="2.5" fill="none" marker-end="url(#arw)"/>
+
+  <rect x="50" y="148" width="345" height="108" rx="14" fill="#ffffff" stroke="#e7e9f0" filter="url(#sh)"/>
+  <text x="76" y="182" font-size="11.5" font-weight="700" letter-spacing="1.2" fill="#8a93a3">CASE TYPE</text>
+  <text x="76" y="210" font-size="19" font-weight="800" fill="#14233b">Motor vehicle</text>
+  <text x="76" y="232" font-size="13" fill="#5b6573">high-volume &amp; common</text>
+
+  <rect x="428" y="148" width="345" height="108" rx="14" fill="#ffffff" stroke="#cdd9fb" stroke-width="2" filter="url(#sh)"/>
+  <text x="454" y="182" font-size="11.5" font-weight="700" letter-spacing="1.2" fill="#316cf4">ONE PAIN POINT</text>
+  <text x="454" y="210" font-size="19" font-weight="800" fill="#14233b">Missing records</text>
+  <text x="454" y="232" font-size="13" fill="#5b6573">automate just this</text>
+
+  <rect x="806" y="148" width="344" height="108" rx="14" fill="#ffffff" stroke="#e7e9f0" filter="url(#sh)"/>
+  <text x="832" y="182" font-size="11.5" font-weight="700" letter-spacing="1.2" fill="#8a93a3">BASELINE METRIC</text>
+  <text x="832" y="210" font-size="19" font-weight="800" fill="#14233b">Time to records complete</text>
+  <text x="832" y="232" font-size="13" fill="#5b6573">measured vs. staff</text>
+
+  <!-- comparison panel -->
+  <rect x="50" y="292" width="1100" height="240" rx="16" fill="#ffffff" stroke="#e7e9f0" filter="url(#sh)"/>
+  <text x="84" y="334" font-size="18" font-weight="800" fill="#14233b">Time to complete case-file records</text>
+  <text x="84" y="358" font-size="13.5" fill="#5b6573">On one high-volume case type — automation vs. relying on staff to spot the gap.</text>
+
+  <text x="84" y="414" font-size="14" font-weight="700" fill="#14233b">Manual</text>
+  <text x="84" y="432" font-size="11.5" fill="#8a93a3">staff finds gaps</text>
+  <rect x="300" y="396" width="760" height="30" rx="15" fill="#f1f3f6"/>
+  <rect x="300" y="396" width="680" height="30" rx="15" fill="#f6a609"/>
+  <text x="992" y="416" font-size="14" font-weight="800" fill="#14233b">≈ 9 days</text>
+
+  <text x="84" y="476" font-size="14" font-weight="700" fill="#14233b">With Playbook</text>
+  <text x="84" y="494" font-size="11.5" fill="#8a93a3">auto-flagged</text>
+  <rect x="300" y="458" width="760" height="30" rx="15" fill="#f1f3f6"/>
+  <rect x="300" y="458" width="151" height="30" rx="15" fill="#15b371"/>
+  <text x="463" y="478" font-size="14" font-weight="800" fill="#15a564">≈ 2 days</text>
+
+  <!-- stat ribbon -->
+  <rect x="50" y="600" width="1100" height="74" rx="16" fill="#316cf4"/>
+  <text x="92" y="648" font-size="34" font-weight="800" fill="#ffffff">78%</text>
+  <text x="186" y="634" font-size="18" font-weight="800" fill="#ffffff">faster to record completion</text>
+  <text x="186" y="657" font-size="13.5" fill="#dbe6ff">One case type, one pain point — a clear baseline that shows the automation beats the old way.</text>
+</svg>

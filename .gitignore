@@ -10,3 +10,8 @@ _orig_*
 !EvenUp_Kickoff_Success_Plan.pdf
 !EvenUp_Onboarding_Gameplan.pdf
 !EvenUp_Playbooks_Module_Script.pdf
+!EvenUp_Onboarding_Deck.pdf
+
+# Never ignore the embedded Rise course export
+!course/
+!course/**

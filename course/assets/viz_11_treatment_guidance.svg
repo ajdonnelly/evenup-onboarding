@@ -1,0 +1,74 @@
+<svg viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Inter, ui-sans-serif, system-ui, Arial, sans-serif">
+  <title>Guide the client's treatment between visits</title>
+  <desc>AI agents track the treatment timeline — ER, MRI, surgery, physical therapy, follow-up — confirming appointments and flagging missed treatment so the team prevents gaps in care, protecting case value.</desc>
+  <defs>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#1b2a4a" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="1200" height="720" fill="#ffffff"/>
+
+  <text x="50" y="52" font-size="15" font-weight="700" letter-spacing="2" fill="#316cf4">BETWEEN VISITS · TREATMENT GUIDANCE</text>
+  <text x="50" y="94" font-size="29" font-weight="800" fill="#14233b">Guide the client’s treatment, protect the value</text>
+
+  <!-- AI agent lane pill -->
+  <rect x="372" y="138" width="456" height="40" rx="20" fill="#e8f0fe"/>
+  <path d="M400 150 l3 8 l8 3 l-8 3 l-3 8 l-3 -8 l-8 -3 l8 -3 Z" fill="#316cf4"/>
+  <text x="422" y="163" font-size="12.5" font-weight="700" fill="#1c50d4">AI Agent — confirms appointments, flags missed care</text>
+
+  <!-- timeline base -->
+  <line x1="150" y1="400" x2="1050" y2="400" stroke="#dbe2ee" stroke-width="4"/>
+
+  <!-- stems -->
+  <line x1="150" y1="330" x2="150" y2="384" stroke="#dbe2ee" stroke-width="2"/>
+  <line x1="375" y1="330" x2="375" y2="384" stroke="#dbe2ee" stroke-width="2"/>
+  <line x1="600" y1="330" x2="600" y2="384" stroke="#dbe2ee" stroke-width="2"/>
+  <line x1="825" y1="330" x2="825" y2="384" stroke="#dbe2ee" stroke-width="2"/>
+  <line x1="1050" y1="330" x2="1050" y2="384" stroke="#dbe2ee" stroke-width="2"/>
+
+  <!-- milestone cards -->
+  <!-- 1 ER -->
+  <rect x="58" y="256" width="184" height="74" rx="12" fill="#ffffff" stroke="#e7e9f0" filter="url(#sh)"/>
+  <text x="150" y="288" text-anchor="middle" font-size="15" font-weight="800" fill="#14233b">ER visit</text>
+  <rect x="106" y="300" width="88" height="22" rx="11" fill="#eafaf0"/>
+  <text x="150" y="315" text-anchor="middle" font-size="11.5" font-weight="700" fill="#15a564">Confirmed</text>
+  <!-- 2 MRI -->
+  <rect x="283" y="256" width="184" height="74" rx="12" fill="#ffffff" stroke="#e7e9f0" filter="url(#sh)"/>
+  <text x="375" y="288" text-anchor="middle" font-size="15" font-weight="800" fill="#14233b">MRI</text>
+  <rect x="331" y="300" width="88" height="22" rx="11" fill="#eafaf0"/>
+  <text x="375" y="315" text-anchor="middle" font-size="11.5" font-weight="700" fill="#15a564">Confirmed</text>
+  <!-- 3 Surgery -->
+  <rect x="508" y="256" width="184" height="74" rx="12" fill="#ffffff" stroke="#e7e9f0" filter="url(#sh)"/>
+  <text x="600" y="288" text-anchor="middle" font-size="15" font-weight="800" fill="#14233b">Surgery</text>
+  <rect x="556" y="300" width="88" height="22" rx="11" fill="#eafaf0"/>
+  <text x="600" y="315" text-anchor="middle" font-size="11.5" font-weight="700" fill="#15a564">Confirmed</text>
+  <!-- 4 PT (missed) -->
+  <rect x="733" y="252" width="184" height="78" rx="12" fill="#ffffff" stroke="#f0e2c6" stroke-width="2" filter="url(#sh)"/>
+  <text x="825" y="286" text-anchor="middle" font-size="15" font-weight="800" fill="#14233b">Physical therapy</text>
+  <rect x="785" y="298" width="80" height="22" rx="11" fill="#fdeccf"/>
+  <text x="825" y="313" text-anchor="middle" font-size="11.5" font-weight="700" fill="#c47f12">Missed</text>
+  <!-- 5 Follow-up -->
+  <rect x="958" y="256" width="184" height="74" rx="12" fill="#ffffff" stroke="#e7e9f0" filter="url(#sh)"/>
+  <text x="1050" y="288" text-anchor="middle" font-size="15" font-weight="800" fill="#14233b">Follow-up</text>
+  <rect x="1006" y="300" width="88" height="22" rx="11" fill="#e8f0fe"/>
+  <text x="1050" y="315" text-anchor="middle" font-size="11.5" font-weight="700" fill="#316cf4">Scheduled</text>
+
+  <!-- nodes -->
+  <circle cx="150" cy="400" r="16" fill="#e6f7ee"/><path d="M142 400 l5 5 l9 -11" stroke="#15b371" stroke-width="2.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="375" cy="400" r="16" fill="#e6f7ee"/><path d="M367 400 l5 5 l9 -11" stroke="#15b371" stroke-width="2.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="600" cy="400" r="16" fill="#e6f7ee"/><path d="M592 400 l5 5 l9 -11" stroke="#15b371" stroke-width="2.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="825" cy="400" r="16" fill="#f6a609"/><path d="M825 393 v8 M825 406 v0.5" stroke="#ffffff" stroke-width="2.8" stroke-linecap="round"/>
+  <circle cx="1050" cy="400" r="16" fill="#ffffff" stroke="#316cf4" stroke-width="3"/>
+
+  <!-- gap callout under PT -->
+  <line x1="825" y1="416" x2="825" y2="450" stroke="#f0c98a" stroke-width="2"/>
+  <rect x="590" y="450" width="470" height="70" rx="14" fill="#fff7e8" stroke="#f0e2c6"/>
+  <text x="614" y="480" font-size="15" font-weight="800" fill="#14233b">Gap in care flagged</text>
+  <text x="614" y="503" font-size="13.5" fill="#5b6573">Your team reaches out before the missed PT costs case value.</text>
+
+  <!-- stat ribbon -->
+  <rect x="50" y="600" width="1090" height="74" rx="16" fill="#316cf4"/>
+  <text x="92" y="648" font-size="34" font-weight="800" fill="#ffffff">37%</text>
+  <text x="172" y="634" font-size="18" font-weight="800" fill="#ffffff">higher case value when gaps in care are prevented</text>
+  <text x="172" y="657" font-size="13.5" fill="#dbe6ff">AI agents also save about 1.5 hours a week confirming appointments.</text>
+</svg>

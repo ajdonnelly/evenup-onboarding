@@ -1,0 +1,67 @@
+<svg viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Inter, ui-sans-serif, system-ui, Arial, sans-serif">
+  <title>Automated bill reconciliation per provider</title>
+  <desc>Bills are reconciled per provider and rolled into a live financials summary — total medical bills against the policy limit — so totals stay current and no billable treatment goes unclaimed.</desc>
+  <defs>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#1b2a4a" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="1200" height="720" fill="#ffffff"/>
+
+  <text x="50" y="52" font-size="15" font-weight="700" letter-spacing="2" fill="#316cf4">FINANCIALS · AUTO RECONCILIATION</text>
+  <text x="50" y="94" font-size="29" font-weight="800" fill="#14233b">Every dollar accounted for, automatically</text>
+
+  <!-- left: bills by provider -->
+  <rect x="50" y="150" width="560" height="410" rx="16" fill="#ffffff" stroke="#e7e9f0" filter="url(#sh)"/>
+  <text x="84" y="198" font-size="18" font-weight="800" fill="#14233b">Bills by provider</text>
+  <rect x="438" y="178" width="138" height="26" rx="13" fill="#eafaf0"/>
+  <text x="507" y="195" text-anchor="middle" font-size="12" font-weight="700" fill="#15a564">auto-reconciled</text>
+  <line x1="84" y1="220" x2="576" y2="220" stroke="#eef0f4" stroke-width="2"/>
+
+  <circle cx="104" cy="262" r="13" fill="#e6f7ee"/><path d="M98 262 l4 4 l8 -9" stroke="#15b371" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="132" y="267" font-size="16" fill="#14233b">Lakeshore Imaging</text>
+  <text x="576" y="267" text-anchor="end" font-size="16" font-weight="700" fill="#14233b">$4,200</text>
+
+  <circle cx="104" cy="306" r="13" fill="#e6f7ee"/><path d="M98 306 l4 4 l8 -9" stroke="#15b371" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="132" y="311" font-size="16" fill="#14233b">Dr. Patel · Orthopedics</text>
+  <text x="576" y="311" text-anchor="end" font-size="16" font-weight="700" fill="#14233b">$9,850</text>
+
+  <circle cx="104" cy="350" r="13" fill="#e6f7ee"/><path d="M98 350 l4 4 l8 -9" stroke="#15b371" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="132" y="355" font-size="16" fill="#14233b">City ER</text>
+  <text x="576" y="355" text-anchor="end" font-size="16" font-weight="700" fill="#14233b">$5,471</text>
+
+  <circle cx="104" cy="394" r="13" fill="#e6f7ee"/><path d="M98 394 l4 4 l8 -9" stroke="#15b371" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="132" y="399" font-size="16" fill="#14233b">Physical Therapy</text>
+  <text x="576" y="399" text-anchor="end" font-size="16" font-weight="700" fill="#14233b">$1,000</text>
+
+  <line x1="84" y1="432" x2="576" y2="432" stroke="#eef0f4" stroke-width="2"/>
+  <text x="132" y="478" font-size="17" font-weight="800" fill="#14233b">Total medical bills</text>
+  <text x="576" y="478" text-anchor="end" font-size="19" font-weight="800" fill="#14233b">$20,521</text>
+  <text x="132" y="506" font-size="13" fill="#8a93a3">Updated automatically as new bills arrive.</text>
+
+  <!-- right: financials summary -->
+  <rect x="640" y="150" width="510" height="410" rx="16" fill="#ffffff" stroke="#e2e6ee" filter="url(#sh)"/>
+  <text x="674" y="198" font-size="18" font-weight="800" fill="#14233b">Financials</text>
+  <line x1="674" y1="220" x2="1116" y2="220" stroke="#eef0f4" stroke-width="2"/>
+
+  <text x="674" y="266" font-size="14" fill="#5b6573">Medical Bills</text>
+  <text x="1116" y="270" text-anchor="end" font-size="26" font-weight="800" fill="#14233b">$20,521</text>
+  <rect x="674" y="288" width="442" height="14" rx="7" fill="#edf0f4"/>
+  <rect x="674" y="288" width="91" height="14" rx="7" fill="#15b371"/>
+  <text x="674" y="328" font-size="13" fill="#8a93a3">20.5% of policy limit</text>
+  <text x="1116" y="328" text-anchor="end" font-size="13" fill="#8a93a3">Policy Limit: $100,000</text>
+
+  <line x1="674" y1="356" x2="1116" y2="356" stroke="#eef0f4" stroke-width="2"/>
+  <text x="674" y="396" font-size="16" font-weight="700" fill="#14233b">Great West Casualty Company</text>
+  <text x="674" y="418" font-size="13.5" fill="#8a93a3">Self-insured</text>
+  <rect x="1024" y="378" width="92" height="28" rx="14" fill="#e8f0fe"/>
+  <text x="1070" y="397" text-anchor="middle" font-size="13" font-weight="700" fill="#316cf4">Primary</text>
+
+  <rect x="674" y="456" width="442" height="64" rx="12" fill="#f7f8fa"/>
+  <text x="694" y="487" font-size="13.5" font-weight="700" fill="#14233b">No billable treatment goes unclaimed.</text>
+  <text x="694" y="508" font-size="13" fill="#5b6573">Per-provider reconciliation keeps the case total accurate.</text>
+
+  <!-- caption -->
+  <rect x="50" y="600" width="1100" height="56" rx="14" fill="#e8f0fe"/>
+  <text x="76" y="634" font-size="16" fill="#3f5170"><tspan font-weight="700" fill="#1c50d4">Always current. </tspan>Automated bill reconciliation per provider keeps every case total up to date.</text>
+</svg>
