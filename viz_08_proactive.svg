@@ -1,0 +1,65 @@
+<svg viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Inter, ui-sans-serif, system-ui, Arial, sans-serif">
+  <title>An AI Playbook is proactive by design</title>
+  <desc>Every new case file is reviewed automatically the moment it lands, producing key facts, critical timelines, risk flags, and opportunities — so the team shapes the case from the start.</desc>
+  <defs>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#1b2a4a" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arw" markerWidth="10" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#b7bdc9"/></marker>
+  </defs>
+  <rect x="0" y="0" width="1200" height="720" fill="#ffffff"/>
+
+  <text x="50" y="52" font-size="15" font-weight="700" letter-spacing="2" fill="#316cf4">WHAT IS AN AI PLAYBOOK</text>
+  <text x="50" y="94" font-size="29" font-weight="800" fill="#14233b">Proactive by design — every case, the moment it lands</text>
+
+  <!-- connectors -->
+  <path d="M280 361 H352" stroke="#cfd4de" stroke-width="2.5" fill="none" marker-end="url(#arw)"/>
+  <path d="M600 361 C 656 361, 664 216, 712 216" stroke="#cfd4de" stroke-width="2.5" fill="none" marker-end="url(#arw)"/>
+  <path d="M600 361 C 656 361, 664 312, 712 312" stroke="#cfd4de" stroke-width="2.5" fill="none" marker-end="url(#arw)"/>
+  <path d="M600 361 C 656 361, 664 408, 712 408" stroke="#cfd4de" stroke-width="2.5" fill="none" marker-end="url(#arw)"/>
+  <path d="M600 361 C 656 361, 664 504, 712 504" stroke="#cfd4de" stroke-width="2.5" fill="none" marker-end="url(#arw)"/>
+
+  <!-- new case file -->
+  <rect x="50" y="296" width="230" height="130" rx="16" fill="#ffffff" stroke="#e7e9f0" filter="url(#sh)"/>
+  <rect x="78" y="322" width="38" height="48" rx="6" fill="#eef0f6" stroke="#cfd4de"/>
+  <path d="M88 338 H106 M88 348 H106 M88 358 H100" stroke="#9aa3b2" stroke-width="2.4" stroke-linecap="round"/>
+  <text x="78" y="398" font-size="18" font-weight="700" fill="#14233b">New case file</text>
+  <text x="78" y="420" font-size="13.5" fill="#5b6573">added to your CMS</text>
+
+  <!-- hub -->
+  <rect x="360" y="286" width="240" height="150" rx="18" fill="#316cf4" filter="url(#sh)"/>
+  <path d="M480 312 L485 328 L501 333 L485 338 L480 354 L475 338 L459 333 L475 328 Z" fill="#ffffff"/>
+  <text x="480" y="392" text-anchor="middle" font-size="21" font-weight="800" fill="#ffffff">AI Playbook</text>
+  <rect x="405" y="408" width="150" height="28" rx="14" fill="#ffffff" opacity="0.20"/>
+  <text x="480" y="427" text-anchor="middle" font-size="13.5" font-weight="600" fill="#ffffff">runs automatically</text>
+
+  <!-- outputs -->
+  <rect x="720" y="176" width="420" height="80" rx="13" fill="#ffffff" stroke="#e7e9f0" filter="url(#sh)"/>
+  <circle cx="760" cy="216" r="18" fill="#e6f7ee"/>
+  <path d="M752 216 l6 6 l11 -13" stroke="#15b371" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="794" y="211" font-size="18" font-weight="700" fill="#14233b">Key facts extracted</text>
+  <text x="794" y="233" font-size="13" fill="#5b6573">injuries · providers · bills</text>
+
+  <rect x="720" y="272" width="420" height="80" rx="13" fill="#ffffff" stroke="#e7e9f0" filter="url(#sh)"/>
+  <circle cx="760" cy="312" r="18" fill="#e6f7ee"/>
+  <path d="M752 312 l6 6 l11 -13" stroke="#15b371" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="794" y="307" font-size="18" font-weight="700" fill="#14233b">Critical timelines mapped</text>
+  <text x="794" y="329" font-size="13" fill="#5b6573">onset → treatment → today</text>
+
+  <rect x="720" y="368" width="420" height="80" rx="13" fill="#ffffff" stroke="#e7e9f0" filter="url(#sh)"/>
+  <circle cx="760" cy="408" r="18" fill="#e6f7ee"/>
+  <path d="M752 408 l6 6 l11 -13" stroke="#15b371" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="794" y="403" font-size="18" font-weight="700" fill="#14233b">Risk flags raised</text>
+  <text x="794" y="425" font-size="13" fill="#5b6573">gaps · missing records</text>
+
+  <rect x="720" y="464" width="420" height="80" rx="13" fill="#ffffff" stroke="#e7e9f0" filter="url(#sh)"/>
+  <circle cx="760" cy="504" r="18" fill="#e6f7ee"/>
+  <path d="M752 504 l6 6 l11 -13" stroke="#15b371" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="794" y="499" font-size="18" font-weight="700" fill="#14233b">Opportunities surfaced</text>
+  <text x="794" y="521" font-size="13" fill="#5b6573">added case value</text>
+
+  <!-- motto banner -->
+  <rect x="50" y="600" width="1090" height="74" rx="16" fill="#316cf4"/>
+  <text x="595" y="635" text-anchor="middle" font-size="22" font-weight="800" fill="#ffffff">Shape the future — don’t react to the present.</text>
+  <text x="595" y="659" text-anchor="middle" font-size="14" fill="#dbe6ff">No case waits for someone to open it.</text>
+</svg>

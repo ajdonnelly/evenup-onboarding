@@ -1,0 +1,67 @@
+<svg viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Inter, ui-sans-serif, system-ui, Arial, sans-serif">
+  <title>Chapter 3 roadmap: from a single flag to firm-wide adoption</title>
+  <desc>The six-step loop of Chapter 3: identify a flag in the CMS, verify it, act on it, refine the Playbook, track every run with an audit trail, and ultimately adopt the workflow firm-wide.</desc>
+  <defs>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#1b2a4a" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arw" markerWidth="9" markerHeight="8" refX="6.5" refY="3" orient="auto"><path d="M0,0 L6.5,3 L0,6 Z" fill="#c4cad4"/></marker>
+  </defs>
+  <rect x="0" y="0" width="1200" height="720" fill="#ffffff"/>
+
+  <text x="50" y="52" font-size="15" font-weight="700" letter-spacing="2" fill="#316cf4">CHAPTER 3 · THE PLAYBOOK LOOP</text>
+  <text x="50" y="94" font-size="29" font-weight="800" fill="#14233b">From a single flag to firm-wide adoption</text>
+
+  <!-- connectors -->
+  <path d="M158 300 H290" stroke="#dbe2ee" stroke-width="3" fill="none" marker-end="url(#arw)"/>
+  <path d="M346 300 H478" stroke="#dbe2ee" stroke-width="3" fill="none" marker-end="url(#arw)"/>
+  <path d="M534 300 H666" stroke="#dbe2ee" stroke-width="3" fill="none" marker-end="url(#arw)"/>
+  <path d="M722 300 H854" stroke="#dbe2ee" stroke-width="3" fill="none" marker-end="url(#arw)"/>
+  <path d="M910 300 H1042" stroke="#dbe2ee" stroke-width="3" fill="none" marker-end="url(#arw)"/>
+
+  <!-- node 1: identify -->
+  <circle cx="130" cy="300" r="28" fill="#316cf4" filter="url(#sh)"/>
+  <text x="130" y="309" text-anchor="middle" font-size="23" font-weight="800" fill="#ffffff">1</text>
+  <text x="130" y="362" text-anchor="middle" font-size="18" font-weight="800" fill="#14233b">Identify</text>
+  <text x="130" y="392" text-anchor="middle" font-size="13" fill="#5b6573">A flag lands</text>
+  <text x="130" y="411" text-anchor="middle" font-size="13" fill="#5b6573">in your CMS</text>
+
+  <!-- node 2: verify -->
+  <circle cx="318" cy="300" r="28" fill="#316cf4" filter="url(#sh)"/>
+  <text x="318" y="309" text-anchor="middle" font-size="23" font-weight="800" fill="#ffffff">2</text>
+  <text x="318" y="362" text-anchor="middle" font-size="18" font-weight="800" fill="#14233b">Verify</text>
+  <text x="318" y="392" text-anchor="middle" font-size="13" fill="#5b6573">Check it against</text>
+  <text x="318" y="411" text-anchor="middle" font-size="13" fill="#5b6573">the source</text>
+
+  <!-- node 3: act -->
+  <circle cx="506" cy="300" r="28" fill="#316cf4" filter="url(#sh)"/>
+  <text x="506" y="309" text-anchor="middle" font-size="23" font-weight="800" fill="#ffffff">3</text>
+  <text x="506" y="362" text-anchor="middle" font-size="18" font-weight="800" fill="#14233b">Act</text>
+  <text x="506" y="392" text-anchor="middle" font-size="13" fill="#5b6573">Route to the</text>
+  <text x="506" y="411" text-anchor="middle" font-size="13" fill="#5b6573">right owner</text>
+
+  <!-- node 4: refine -->
+  <circle cx="694" cy="300" r="28" fill="#316cf4" filter="url(#sh)"/>
+  <text x="694" y="309" text-anchor="middle" font-size="23" font-weight="800" fill="#ffffff">4</text>
+  <text x="694" y="362" text-anchor="middle" font-size="18" font-weight="800" fill="#14233b">Refine</text>
+  <text x="694" y="392" text-anchor="middle" font-size="13" fill="#5b6573">Tune the Playbook</text>
+  <text x="694" y="411" text-anchor="middle" font-size="13" fill="#5b6573">on feedback</text>
+
+  <!-- node 5: audit -->
+  <circle cx="882" cy="300" r="28" fill="#316cf4" filter="url(#sh)"/>
+  <text x="882" y="309" text-anchor="middle" font-size="23" font-weight="800" fill="#ffffff">5</text>
+  <text x="882" y="362" text-anchor="middle" font-size="18" font-weight="800" fill="#14233b">Audit</text>
+  <text x="882" y="392" text-anchor="middle" font-size="13" fill="#5b6573">Track every run</text>
+  <text x="882" y="411" text-anchor="middle" font-size="13" fill="#5b6573">and change</text>
+
+  <!-- node 6: adopt firm-wide -->
+  <circle cx="1070" cy="300" r="28" fill="#15b371" filter="url(#sh)"/>
+  <text x="1070" y="309" text-anchor="middle" font-size="23" font-weight="800" fill="#ffffff">6</text>
+  <text x="1070" y="362" text-anchor="middle" font-size="17" font-weight="800" fill="#14233b">Adopt firm-wide</text>
+  <text x="1070" y="392" text-anchor="middle" font-size="13" fill="#5b6573">Scale the proven</text>
+  <text x="1070" y="411" text-anchor="middle" font-size="13" fill="#5b6573">workflow</text>
+
+  <!-- caption -->
+  <rect x="50" y="600" width="1100" height="64" rx="14" fill="#e8f0fe"/>
+  <text x="76" y="639" font-size="16" fill="#3f5170"><tspan font-weight="700" fill="#1c50d4">The full loop. </tspan>Identify and verify a flag, act on it, refine the Playbook — then track every run and scale firm-wide.</text>
+</svg>
